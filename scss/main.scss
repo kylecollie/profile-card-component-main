@@ -11,6 +11,12 @@ body {
   margin: 0;
   font-family: 'Kumbh Sans';
   font-size: 18px;
+  background-color: var(--dark-cyan);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-position-x: -198px, 164px;
+  background-position-y: -188px, 380px;
+  background-size: 112%;
+  background-repeat: no-repeat;
 }
 
 .attribution { 
