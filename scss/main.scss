@@ -65,6 +65,10 @@ span {
   color: var(--dark-gray);
   text-align: center;
   padding-top: 30px;
+
+  p {
+    font-size: 12px;
+  }
 }
 
 .attribution-container {
@@ -84,4 +88,20 @@ span {
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (min-width: 1440px) {
+
+  body {
+    background-position-x: -320px, 1000px;
+    background-position-y: -868px, 380px;
+    background-size: 60%, 75%;
+  }
+  
+  .card {
+    width: 328px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
